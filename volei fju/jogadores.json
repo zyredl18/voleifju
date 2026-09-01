@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2bdd6c7a-4e44-44ac-b643-1ec39e3b37c6",
+    "nome": "Daniel",
+    "foto": "/uploads/2bdd6c7a-4e44-44ac-b643-1ec39e3b37c6.jpg",
+    "criadoEm": "2026-08-30T17:54:24.172Z"
+  },
+  {
+    "id": "798a7c99-5cf9-4d0a-a51d-87046788fc52",
+    "nome": "Carlos",
+    "foto": "/uploads/798a7c99-5cf9-4d0a-a51d-87046788fc52.jpg",
+    "criadoEm": "2026-09-01T00:02:18.931Z"
+  },
+  {
+    "id": "b298c6ba-a1b8-41b2-9d7d-936309de7083",
+    "nome": "Vitor",
+    "foto": "/uploads/b298c6ba-a1b8-41b2-9d7d-936309de7083.jpg",
+    "criadoEm": "2026-09-01T00:02:32.389Z"
+  },
+  {
+    "id": "bd3e69ec-bc9a-4ca6-9350-be32a99a9137",
+    "nome": "Glauber",
+    "foto": "/uploads/bd3e69ec-bc9a-4ca6-9350-be32a99a9137.jpg",
+    "criadoEm": "2026-09-01T00:02:40.520Z"
+  }
+]
