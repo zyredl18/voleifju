@@ -8,9 +8,8 @@ const crypto = require("crypto");
 const ROOT = __dirname;
 const DATA_FILE = path.join(ROOT, "jogadores.json");
 const UPLOADS_DIR = path.join(ROOT, "uploads");
-// Usa uma porta diferente do projeto principal, que permanece na porta 3000.
-// Ainda é possível escolher outra porta ao iniciar com a variável de ambiente PORT.
-const PORT = Number(process.env.PORT) || 3001;
+// Este serviço usa uma variável própria para não herdar a porta do projeto principal.
+const PORT = Number(process.env.VOLEI_PORT) || 3001;
 const MAX_BODY = 5 * 1024 * 1024;
 
 fs.mkdirSync(UPLOADS_DIR, { recursive: true });
@@ -180,4 +179,3 @@ const servidor = http.createServer(async (req, res) => {
 servidor.listen(PORT, () => {
   console.log("Controle Técnico · Vôlei disponível em http://localhost:" + PORT);
 });
-

@@ -5,6 +5,7 @@
   "description": "Controle técnico de vôlei com cadastro de jogadores em JSON",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "start:integrados": "node iniciar-servicos.js"
   }
 }
